@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>       <meta charset="utf-8">
+        <title>Priceless Gem Travel</title>
+        <style>
+            body{
+                background-color: #1e4972;
+            }
+            .white-box{
+                background-color: white;
+            }
+            #Description{
+                color: #868686;
+            }
+        </style>
+    </head>
+    <body>
+<!-- Priceless Gem Travel Logo -->
+<div class = "white-box"><img width="350" height="250" src="https://kristinsmagicalbookings.files.wordpress.com/2019/08/pricelessgemtravel_color.png" class="custom-logo"> 
+<p id = "Description">We plan authentic vacations for busy individuals to deepen connections with family and friends through discovering the priceless gems of the world</p></div><button id="home">Home</button><button>About</button><button>services</button><button>fees</button><button>testimonials</button><button>contact</button>
+<div class = "white-box"><p id = "change">Sorry, something went wrong.</p></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+  //this function will be called when the home button is pressed and when the page loads.
+  
+ $("#change").html("Hark the sound of Tar Heel voices,<br>Ringing clear and true.<br>Singing Carolina's praises");
+$("#home").on("click", function(){
+    console.log("button");
+    $("#change").html("Hark the sound of Tar Heel voices,<br>Ringing clear and true.<br>Singing Carolina's praises,")
+</script>
+    </body>
+</html>
 
